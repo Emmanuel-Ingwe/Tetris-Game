@@ -1,9 +1,27 @@
+body {
+    background-color: black;
+}
+
 .container {
     display: flex;
+    border: 1px solid cyan;
+    margin-top: 13px;
+    background: rgba(143, 173, 143, 0.2);
 }
 
 h1 {
-    padding-right: 150px;
+    font-size: larger;
+    font-weight: 700;
+    padding-right: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    background: radial-gradient(red, blue, violet, yellow);  
+    border-radius:8px;
+    cursor: pointer;
+}
+
+h3 {
+    color: pink;
+    cursor: pointer;
 }
 
 .section {
