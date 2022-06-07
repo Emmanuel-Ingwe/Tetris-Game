@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // game over
     function gameOver() {
         if (current.some(index => squares[currentPosition + index].classList.contains('taken'))) {
-            scoreDisplay.innerHTML = 'end';
+            scoreDisplay.innerHTML = 'GameOverBitch!';
             clearInterval(timerId);
         }
     }

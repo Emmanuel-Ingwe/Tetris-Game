@@ -20,7 +20,9 @@ h1 {
 }
 
 h3 {
+    font-family: 'Courier New', Courier, monospace;
     color: pink;
+    font-weight: 400;
     cursor: pointer;
 }
 
