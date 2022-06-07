@@ -2,12 +2,26 @@
     display: flex;
 }
 
+h1 {
+    padding-right: 150px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .grid {
     width: 200px;
     height: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: rgb(82, 82, 82);
 }
 
 .grid div {
@@ -16,7 +30,7 @@
 }
 
 .tetromino {
-    background-color: blue;
+    background-color: rgb(8, 245, 213);
 }
 
 .mini-grid {
@@ -25,7 +39,7 @@
     height: 80px;
     display: flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: rgb(97, 5, 17);
 }
 
 .mini-grid div {
